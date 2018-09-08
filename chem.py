@@ -7,19 +7,19 @@ How to enter formulas:
 *Do not use spaces
 
 How to use molar_mass:
-*Enter molar_mass(formula) at the bottom of the document
+*Enter print(molar_mass(formula)) at the bottom of the document
 
 How to use percent_composition:
-*Enter percent_composition(formula) at the bottom of the document
+*Enter print(percent_composition(formula)) at the bottom of the document
 
 How to use empirical_formula:
-*Enter empirical_formula(masses) at the bottom of the document
+*Enter print(empirical_formula(masses)) at the bottom of the document
 How to enter masses:
 *Put every element or polyatomic ion in quotes immediately followed by its mass
 *e.g. 'ca24.42(n1o3)75.58'
 
 How to use redox:
-*Enter redox(reactant1, reactantcharge1, reactant2, reactantcharge2, product1, productcharge1, product2, productcharge2)
+*Enter print(redox(reactant1, reactantcharge1, reactant2, reactantcharge2, product1, productcharge1, product2, productcharge2))
 '''
 atwt={'h':1.01,'he':4,'li':6.94,'be':9.01,'b':10.81,'c':12.01,'n':14.01,'o':16,'f':19,'ne':20.18,'na':22.99,'mg':24.31,'al':26.98,'si':28.09,'p':30.97,'s':32.07,'cl':35.45,'ar':39.95,'k':39.1,'ca':40.08,'sc':44.96,'ti':47.9,'v':50.94, 'cr':52.00,'mn':54.94,'fe':55.85,'co':58.93,'ni':58.69,'cu':63.55,'zn':65.39,'se':78.96,'br':79.9,'kr':83.8,'sr':87.62,'ag':107.87,'sn':118.71,'i':126.9,'ba':137.33,'sm':150.36,'pb':207.2,'ra':226,'u':238}
 def gcd(a, b):
